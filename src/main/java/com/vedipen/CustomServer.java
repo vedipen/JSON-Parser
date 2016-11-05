@@ -58,6 +58,7 @@ public class CustomServer {
 
       Iterator<String> keys = jsonObject.keys();
       String prefix = "";
+      
       while(keys.hasNext()) {
         responseString.append(prefix + keys.next() );
         prefix = ",";
